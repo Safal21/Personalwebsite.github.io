@@ -1,0 +1,97 @@
+*{margin: 0;padding: 0;font-family: Josefin Sans;}
+nav{
+	height: 100px;
+	background:green;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+}
+.logo{
+	width: 40%;
+	color: #a6fd29;
+	padding-left: 55px;
+	animation: ;
+}
+.menu{
+	width: 60%;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	
+}
+.menu a{
+text-decoration: none;
+color: black;
+text-transform: uppercase;
+font-weight: bold;
+position: relative;
+
+}
+.logo h1{
+	text-shadow: 2px 2px 2px #a6ed29;
+}
+.menu a:before{
+	content:"";
+	position: absolute;
+	left: 0;
+	top: 100%;
+	width: 0;
+	height: 2px;
+	background-color: black;
+	transition: all 0.5s linear;
+
+}.menu a:hover:before{
+	width: 100%;
+}
+.text{
+	text-align: right;
+	justify-content: space-around;
+	color: green;
+	font-weight: bold;
+	background-color: white;
+	height: 200px;
+	width: 500px;
+	margin-left: 800px;
+	font-size: 17px;
+
+	
+
+}
+.copyright p{
+	margin-top: 186px;
+	background-color:green ;
+	text-align: center;
+	font-weight: bolder;
+	font-size: 20px;
+	font-family: Josefin Sans
+}
+.photo{
+	
+	background-color: white;
+	height: 67px;
+	width: 67px;
+	margin-top: 300px;
+	margin-left: 60px;
+	
+}
+.phototext{
+	display:grid;
+	margin-bottom: 45px;
+	}
+.text p{
+	margin-top: 6px;
+	font-size: 20px;
+
+	
+
+}
+.text h1{
+	font-size: 50px;
+}
+.button{
+	margin-left:1000px ;
+	margin-bottom: 45px;
+	color: text;
+
+}
+	
